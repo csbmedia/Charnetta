@@ -1,0 +1,104 @@
+ /*---------------------------------- Start with basic resets ----------------------------------*/
+ @import "compass/reset";
+ @import "compass/utilities/lists/horizontal-list";
+
+
+ /*---------------------------------- Mixins ----------------------------------*/
+@mixin horizontal-list-container 
+{
+  @include reset-box-model;
+  @include clearfix; 
+}
+
+@mixin horizontal-list-item($padding: 12px, $direction: left) {
+  @include no-bullet;
+  white-space: nowrap;
+  @include float($direction);
+  @if $padding {
+    padding: {
+      left: $padding;
+      right: $padding; 
+  	  top: 20px;
+  	  bottom: 20px;};
+    &:first-child, &.first {
+      padding-#{$direction}: 0; }
+    &:last-child {
+      padding-#{opposite-position($direction)}: 0; }
+    &.last {
+      padding-#{opposite-position($direction)}: 0; } } }
+
+  @mixin nav-seperator
+  {
+    border-right: 1px solid black;
+  }
+
+/*---------------------------------- Variables ----------------------------------*/
+
+/* Positioning */
+$right: right;
+
+/* Weight */
+$bold: bold;
+
+/* Color */
+$black: black;
+
+$blue: #939494;
+
+
+/*---------------------------------- Structure ----------------------------------*/
+
+body
+{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+.container
+{
+
+}
+
+
+/*---------------------------------- Navigation ----------------------------------*/
+
+nav
+
+{
+	float: $right !important;
+	font-size: 18px;
+	margin-top: 10px;
+
+  ul
+  {
+    @include horizontal-list-container
+  }
+
+  li
+  {
+    @include horizontal-list-item; 
+
+    &.active
+    {
+      font-weight: $bold;
+    }
+    
+  }
+
+  a 
+  {
+    color: $black;
+  }
+
+}
+
+
+
+
+
+
+
+
+nav li.home-nav, nav li.work-nav
+{
+	@include nav-seperator
+}
