@@ -42,8 +42,7 @@ $bold: bold;
 
 /* Color */
 $black: black;
-
-$blue: #939494;
+$tan: #f5f3c3;
 
 
 /*---------------------------------- Structure ----------------------------------*/
@@ -64,7 +63,6 @@ body
 nav
 
 {
-	float: $right !important;
 	font-size: 18px;
 	margin-top: 10px;
 
@@ -81,7 +79,12 @@ nav
     {
       font-weight: $bold;
     }
-    
+
+    &.home-nav, &.work-nav
+    {
+      @include nav-seperator
+    }
+
   }
 
   a 
@@ -92,13 +95,22 @@ nav
 }
 
 
+/*---------------------------------- Home ----------------------------------*/
 
-
-
-
-
-
-nav li.home-nav, nav li.work-nav
+.charnetta-name-home
 {
-	@include nav-seperator
+  font-size: 50px;
+  margin-top: 200px;
+}
+
+.info-home
+{ 
+  height: 200px;
+  margin: 0;
+  background: $tan;
+
+  h2
+  {
+    
+  }
 }

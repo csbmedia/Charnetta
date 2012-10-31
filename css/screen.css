@@ -70,20 +70,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* Weight */
 /* Color */
 /*---------------------------------- Structure ----------------------------------*/
-/* line 52, ../scss/screen.scss */
+/* line 51, ../scss/screen.scss */
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 
 /*---------------------------------- Navigation ----------------------------------*/
-/* line 66, ../scss/screen.scss */
+/* line 65, ../scss/screen.scss */
 nav {
-  float: right !important;
   font-size: 18px;
   margin-top: 10px;
 }
-/* line 72, ../scss/screen.scss */
+/* line 70, ../scss/screen.scss */
 nav ul {
   margin: 0;
   padding: 0;
@@ -91,7 +90,7 @@ nav ul {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 77, ../scss/screen.scss */
+/* line 75, ../scss/screen.scss */
 nav li {
   list-style-image: none;
   list-style-type: none;
@@ -116,16 +115,29 @@ nav li:last-child {
 nav li.last {
   padding-right: 0;
 }
-/* line 81, ../scss/screen.scss */
+/* line 79, ../scss/screen.scss */
 nav li.active {
   font-weight: bold;
 }
-/* line 88, ../scss/screen.scss */
+/* line 84, ../scss/screen.scss */
+nav li.home-nav, nav li.work-nav {
+  border-right: 1px solid black;
+}
+/* line 91, ../scss/screen.scss */
 nav a {
   color: black;
 }
 
-/* line 102, ../scss/screen.scss */
-nav li.home-nav, nav li.work-nav {
-  border-right: 1px solid black;
+/*---------------------------------- Home ----------------------------------*/
+/* line 101, ../scss/screen.scss */
+.charnetta-name-home {
+  font-size: 50px;
+  margin-top: 200px;
+}
+
+/* line 107, ../scss/screen.scss */
+.info-home {
+  height: 200px;
+  margin: 0;
+  background: #f5f3c3;
 }
