@@ -76,7 +76,7 @@ body {
   font-weight: 300;
 }
 
-/*---------------------------------- Navigation ----------------------------------*/
+/*---------------------------------- Navigation (Home) ----------------------------------*/
 /* line 66, ../scss/screen.scss */
 nav {
   font-size: 18px;
@@ -128,35 +128,49 @@ nav a {
   color: black;
 }
 
-/*---------------------------------- Home ----------------------------------*/
+/*---------------------------------- Navigation (Work) ----------------------------------*/
 /* line 102, ../scss/screen.scss */
+.small-logo {
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+/*---------------------------------- Home ----------------------------------*/
+/* line 111, ../scss/screen.scss */
 .charnetta-name-home {
   font-size: 50px;
   margin-top: 200px;
 }
 
-/* line 108, ../scss/screen.scss */
+/* line 117, ../scss/screen.scss */
 .info-home {
   height: 200px;
   padding-top: 20px;
   margin: 70px 0 0 0;
   background: #f5f3c3;
 }
-/* line 114, ../scss/screen.scss */
+/* line 123, ../scss/screen.scss */
 .info-home h2 {
   margin: 0;
   height: 20px;
   background: #e6e3ae;
   padding: 5px 0 5px 20px;
 }
-/* line 121, ../scss/screen.scss */
+/* line 130, ../scss/screen.scss */
 .info-home span {
   background: #eeebbe;
   margin: 0;
   height: 30px;
   padding-right: 0px;
 }
-/* line 128, ../scss/screen.scss */
+/* line 137, ../scss/screen.scss */
 .info-home p {
   margin: 10px 0 0 20px;
+}
+
+/*---------------------------------- Home ----------------------------------*/
+/* line 147, ../scss/screen.scss */
+.header {
+  height: 100px;
+  border-bottom: 1px solid black;
 }
