@@ -70,19 +70,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* Weight */
 /* Color */
 /*---------------------------------- Structure ----------------------------------*/
-/* line 51, ../scss/screen.scss */
+/* line 52, ../scss/screen.scss */
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 
 /*---------------------------------- Navigation ----------------------------------*/
-/* line 65, ../scss/screen.scss */
+/* line 66, ../scss/screen.scss */
 nav {
   font-size: 18px;
   margin-top: 10px;
 }
-/* line 70, ../scss/screen.scss */
+/* line 71, ../scss/screen.scss */
 nav ul {
   margin: 0;
   padding: 0;
@@ -90,7 +90,7 @@ nav ul {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 75, ../scss/screen.scss */
+/* line 76, ../scss/screen.scss */
 nav li {
   list-style-image: none;
   list-style-type: none;
@@ -115,29 +115,48 @@ nav li:last-child {
 nav li.last {
   padding-right: 0;
 }
-/* line 79, ../scss/screen.scss */
+/* line 80, ../scss/screen.scss */
 nav li.active {
   font-weight: bold;
 }
-/* line 84, ../scss/screen.scss */
+/* line 85, ../scss/screen.scss */
 nav li.home-nav, nav li.work-nav {
   border-right: 1px solid black;
 }
-/* line 91, ../scss/screen.scss */
+/* line 92, ../scss/screen.scss */
 nav a {
   color: black;
 }
 
 /*---------------------------------- Home ----------------------------------*/
-/* line 101, ../scss/screen.scss */
+/* line 102, ../scss/screen.scss */
 .charnetta-name-home {
   font-size: 50px;
   margin-top: 200px;
 }
 
-/* line 107, ../scss/screen.scss */
+/* line 108, ../scss/screen.scss */
 .info-home {
   height: 200px;
-  margin: 0;
+  padding-top: 20px;
+  margin: 70px 0 0 0;
   background: #f5f3c3;
+}
+/* line 114, ../scss/screen.scss */
+.info-home h2 {
+  margin: 0;
+  height: 20px;
+  background: #e6e3ae;
+  padding: 5px 0 5px 20px;
+}
+/* line 121, ../scss/screen.scss */
+.info-home span {
+  background: #eeebbe;
+  margin: 0;
+  height: 30px;
+  padding-right: 0px;
+}
+/* line 128, ../scss/screen.scss */
+.info-home p {
+  margin: 10px 0 0 20px;
 }

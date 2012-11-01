@@ -43,7 +43,8 @@ $bold: bold;
 /* Color */
 $black: black;
 $tan: #f5f3c3;
-
+$tan-title-bg: #e6e3ae;
+$tan-title-extenstion-bg: #eeebbe;
 
 /*---------------------------------- Structure ----------------------------------*/
 
@@ -105,12 +106,27 @@ nav
 
 .info-home
 { 
-  height: 200px;
-  margin: 0;
+  height: 200px; padding-top: 20px;
+  margin: 70px 0 0 0;
   background: $tan;
 
   h2
   {
-    
+     margin: 0; height: 20px;
+     background: $tan-title-bg;  
+     padding:  5px 0 5px 20px;  
   }
+
+  span
+  {
+    background: $tan-title-extenstion-bg;
+    margin: 0; height: 30px;
+    padding-right: 0px;
+  }
+
+  p
+  {
+    margin: 10px 0 0 20px;
+  }
+
 }
