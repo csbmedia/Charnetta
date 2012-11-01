@@ -45,6 +45,7 @@ $black: black;
 $tan: #f5f3c3;
 $tan-title-bg: #e6e3ae;
 $tan-title-extenstion-bg: #eeebbe;
+$grey: #dad9d7;
 
 /*---------------------------------- Structure ----------------------------------*/
 
@@ -96,12 +97,40 @@ nav
 }
 
 
-/*---------------------------------- Navigation (Work) ----------------------------------*/
+/*---------------------------------- Navigation (Work-Landing) ----------------------------------*/
 
 .small-logo
 {
-  font-size: 35px; margin-top: 20px;
- 
+  font-size: 35px; margin-top: 20px; 
+}
+
+.work-grid
+
+{
+    padding-top: 20px;
+    margin-left: 0px;
+
+    div
+    {
+      background: $grey;
+      height: 260px;
+
+      h2.span4
+      {
+         margin: 0; height: 20px;
+         background: $tan-title-bg;  
+         padding: 5px 0 5px 20px;  
+      }
+
+      span.span8
+      {
+        background: $tan-title-extenstion-bg;
+        margin: 0; height: 30px;
+        width: 68%;
+      }
+
+    }
+
 }
 
 
@@ -146,4 +175,5 @@ nav
 .header 
 {
   height: 100px; border-bottom: 1px solid $black;
+  margin-left:0px;
 }
