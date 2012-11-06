@@ -131,9 +131,29 @@ nav
 
     }
 
+    .copy
+    {
+      background: white; line-height: 26px; 
+
+      p
+      {
+        margin-bottom: 10px;
+      }
+    }
+
 }
 
 
+/*---------------------------------- Navigation (Work-Individual) ----------------------------------*/
+
+.work-individual-grid
+
+{
+  div.span7
+  {
+    margin: 0 0 20px 0;
+  }
+}
 /*---------------------------------- Home ----------------------------------*/
 
 .charnetta-name-home

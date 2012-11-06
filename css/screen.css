@@ -159,42 +159,57 @@ nav a {
   height: 30px;
   width: 68%;
 }
+/* line 135, ../scss/screen.scss */
+.work-grid .copy {
+  background: white;
+  line-height: 26px;
+}
+/* line 139, ../scss/screen.scss */
+.work-grid .copy p {
+  margin-bottom: 10px;
+}
+
+/*---------------------------------- Navigation (Work-Individual) ----------------------------------*/
+/* line 153, ../scss/screen.scss */
+.work-individual-grid div.span7 {
+  margin: 0 0 20px 0;
+}
 
 /*---------------------------------- Home ----------------------------------*/
-/* line 140, ../scss/screen.scss */
+/* line 160, ../scss/screen.scss */
 .charnetta-name-home {
   font-size: 50px;
   margin-top: 200px;
 }
 
-/* line 146, ../scss/screen.scss */
+/* line 166, ../scss/screen.scss */
 .info-home {
   height: 200px;
   padding-top: 20px;
   margin: 70px 0 0 0;
   background: #f5f3c3;
 }
-/* line 152, ../scss/screen.scss */
+/* line 172, ../scss/screen.scss */
 .info-home h2 {
   margin: 0;
   height: 20px;
   background: #e6e3ae;
   padding: 5px 0 5px 20px;
 }
-/* line 159, ../scss/screen.scss */
+/* line 179, ../scss/screen.scss */
 .info-home span {
   background: #eeebbe;
   margin: 0;
   height: 30px;
   padding-right: 0px;
 }
-/* line 166, ../scss/screen.scss */
+/* line 186, ../scss/screen.scss */
 .info-home p {
   margin: 10px 0 0 20px;
 }
 
 /*---------------------------------- Home ----------------------------------*/
-/* line 176, ../scss/screen.scss */
+/* line 196, ../scss/screen.scss */
 .header {
   height: 100px;
   border-bottom: 1px solid black;
