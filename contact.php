@@ -33,70 +33,50 @@
 
         <p class="small-logo span4 pull-left">
 
-         Charnetta Winston
+          Charnetta Winston
+
         </p>
 
         <nav class="span4 pull-right">
           <ul>
             <li class="home-nav"><a href="index.html">HOME</a></li>
-            <li class="active work-nav"><a href="work.html">WORK</a></li>
-            <li class="contact-nav"><a href="contact.php">CONTACT</a></li>
+            <li class="work-nav"><a href="work.html">WORK</a></li>
+            <li class="active contact-nav"><a href="contact.php">CONTACT</a></li>
           </ul>
         </nav>       
 
       </div>
 
-      <!-- Start Grid Layout-->
-      <div class="row-fluid span12 work-grid">
+        <!-- Start Grid Layout-->
+        <div class="span5 work-grid">
 
-          <div class="span4">
+          <form class="contact-form">
 
-
-
-              <span class="span8"></span> <!-- Empty span allows for easy adjustment to the width of each title block --><h2 class="span4"><a href="work/what-if.html">Test</a></h2>
+          <fieldset>
          
-          </div>
+              <span class="span3"></span><label class="span2">NAME:</label> 
+              <input type="text" class="span5"> <br/>
 
-          <div class="span4">
+              <span class="span3"></span><label class="span2">EMAIL:</label> 
+              <input type="text" class="span5"> <br/>
+             
+              <span class="span3"></span><label class="span2 message-title">MESSAGE:</label>
+              <textarea rows="5" class="span5"></textarea> <br/>
 
-             <span class="span8"></span> <!-- Empty span allows for easy adjustment to the width of each title block --><h2 class="span4">Test</h2>
-        
-          </div>
 
-          <div class="span4">
-
-             <span class="span8"></span> <!-- Empty span allows for easy adjustment to the width of each title block --><h2 class="span4">Test</h2>
-
-          </div>
-
-      </div>
-
-      <div class="row-fluid span12 work-grid">
+                  <button type="submit" class="">SUBMIT</button>
       
-          <div class="span4">
 
-              <span class="span8"></span> <!-- Empty span allows for easy adjustment to the width of each title block --><h2 class="span4">Test</h2>
-         
-          </div>
+          </fieldset>
 
-          <div class="span4">
+        </form> 
 
-             <span class="span8"></span> <!-- Empty span allows for easy adjustment to the width of each title block --><h2 class="span4">Test</h2>
-        
-          </div>
+        </div>
 
-          <div class="span4">
 
-             <span class="span8"></span> <!-- Empty span allows for easy adjustment to the width of each title block --><h2 class="span4">Test</h2>
 
-          </div>
 
-      </div>
-
-      </div>
-
-    </div>
-    
+    </div>    
 
  
   </body>

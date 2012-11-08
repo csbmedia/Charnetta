@@ -1,6 +1,6 @@
  /*---------------------------------- Start with basic resets ----------------------------------*/
  @import "compass/reset";
- @import "compass/utilities/lists/horizontal-list";
+@import "compass/utilities/lists/horizontal-list";
 
 
  /*---------------------------------- Mixins ----------------------------------*/
@@ -196,4 +196,40 @@ nav
 {
   height: 100px; border-bottom: 1px solid $black;
   margin-left:0px;
+}
+
+/*---------------------------------- Contact Form ----------------------------------*/
+
+.contact-form
+{
+
+
+ 
+  label
+  {
+    margin:0 0 10px 0; padding: 7px 0 7px 0;
+    background: $tan-title-bg;
+    text-align: center;
+  }
+
+  button[type="submit"]
+  {  
+    border: none; font-size: 18px; padding: 10px;
+    background: black; color: white; display: block; margin: 0 auto;
+  } 
+
+  input, textarea
+  {
+    margin: 0 0 25px 0;
+    width: 348px !important;
+
+  }
+
+  .span3
+  {
+    margin-left: 0; height: 30px;
+    background: $tan-title-extenstion-bg;
+  }
+
+
 }
